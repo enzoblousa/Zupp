@@ -1,0 +1,55 @@
+Bloco 1 — Visão e proposta de valor
+Nosso sistema resolverá algumas dores, dores essas que são:
+ 
+1) a falta de contato e network que pessoas comuns tem com advogados.
+
+2) Não existe um lugar que centraliza prestadores de serviços de advocacia.
+
+3) Normalmente as pessoas não tem referência de preço pra serviços emergenciais e acabam pagando qualquer preço que é cobrado pelo advogado ou escritório.
+
+4) Aconteceu um problema com a pessoa e não conhece profissionais da advocacia próximos e/ou baratos para reoslver esse problema.
+
+5) Não sabe qual área dos advogados seria a mais adequada para problema ocorrido, falta de conhecimento.
+
+6) O usuário ta numa região desconhecida ou qualquer região e precisa de advogados proximos.
+
+7) Situacao de emergencia e nao tem contato para quem ligar ou pessoas terceiras para ajuda la naquele momento.
+
+Como o foco é o MVP quero que tenha apenas atendimentos presenciais mas no futuro terá novas features como atendimento remoto entre outras.
+
+O diferencial é na facilidade de encontrar advogados dispostos para resolver problema de clientes. Facilidade dos advogados de encontrarem clientes necessitando serviços perto deles. 
+
+Bloco 2 — Usuários e personas
+- Cliente está necessitando de serviços ou contatos de advogados próximos da sua localização, Pessoas que “não tem vivencia”, não tem conhecimento de mundo o suficiente pra arrumar e também nunca precisaram ter um contato que resolva aquilo antes
+
+- Advogado necessita de conhecer clientes dispostos a pagarem pelo serviço dele. Pretendo validar especialidades, tempo de experiência, credenciais, formações, registro da OAB etc.
+
+Bloco 3 — Funcionalidades centrais do MVP
+Funcionolalidades obrigatórias no mvp:
+1) chamado sob demanda com matching por proximidade.
+2) cadastro e login de usuários: clientes e advogados
+3) autenticação e verificação do advogado,Validação de perfil estilo uber, puxar possiveis históricos criminais e valicalçaoes de documentos comprovando ser uma pessoa íntegra
+5)chat entre cliente e advogado
+6)ao aceitar serviço o profissional “some” do mapa/matchmaking
+
+Bloco 4 — Limites de escopo e considerações regulatórias
+Pendente, analisar depois: https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021
+
+Escopo geográfico do MVP será nacionalmente
+
+Funcionalidades futuras que estarão fora do MVP: 
+1) Gateway de pagamentos na hora da contratação do serviço
+2) flexibilidade no custo do serviço ex: preço: A negociar
+3) OPCAO DE LIGACAO VIA VIDEO CHAMADA(ATENDIMENTO REMOTO)
+4) Perfil verificado estilo linkedin, profissional paga e tem beneficios(mais que os de assinatura padrão)
+5) Não só mostrar no mapa a disponibilidade mas pesquisar profissionais cadastrados em outras regioes para ocasões não urgentes
+6) Ao procurar o profissional apareceria o curriculo inteiro e mostrando suas graduações(possiveis alteracoes no preço do servico)
+7) Seção de profissionais favoritados pelo usuário caso precise em outro momento
+8) Perfil para advogados: tempo de profissao quantos processos ele ja fez
+9) OPCAO DE LIGACAO VIA VIDEO CHAMADA(ATENDIMENTO REMOTO)
+
+Bloco 5 — Restrições técnicas e de negócio
+Para o Mvp será versão web responsiva
+
+Restrições de prazo: 3 meses
+Equipe: 2 desenvolvedores com auxilílio Claude Code
