@@ -14,3 +14,5 @@ As funcionalidades abaixo foram identificadas como desejáveis para versões fut
 | 8 | Perfil expandido do advogado com tempo de profissão e quantidade de processos |
 | 9 | Filtro e seleção por especialidade jurídica |
 | 10 | Persona e área administrativa dedicada |
+| 11 | Aumento do escopo geográfico para nacional |
+
