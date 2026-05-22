@@ -1,0 +1,35 @@
+Pontos críticos:
+
+"O primeiro ponto envolve o modelo de cobrança no MVP. Você indicou que o gateway de pagamentos fica fora do escopo inicial e que a flexibilidade de preço é uma feature futura. Isso significa que, no MVP, o pagamento será combinado e realizado diretamente entre cliente e advogado, fora da plataforma? Se sim, a plataforma exibe algum valor de referência durante o chamado, ou o preço só é discutido após o contato? Essa decisão é estrutural porque define se o sistema precisa ou não armazenar valores em qualquer momento do fluxo."
+1) Em relação a pagamentos, queria uma ideia de negócio atrativa para advogados e para clientes também. Cliente não é pego de surpresa na hora do pagamento sobre o valor do serviço e o advogado também não. Talvez uma taxa de deslocamento ou algo nesse sentido para ser lucrativo tanto pro advogado quanto para nós desenvolvedores
+
+
+
+"O segundo ponto trata do modelo de matching. Você mencionou chamado sob demanda com matching por proximidade e que o profissional desaparece do mapa ao aceitar o serviço. Falta esclarecer como o chamado é distribuído: o cliente vê uma lista de advogados próximos e escolhe ativamente, ou o sistema dispara o chamado para o advogado mais próximo e ele aceita ou recusa, no estilo Uber? Essa diferença muda completamente a experiência e a arquitetura."
+2) Match estilo uber, sistema dispara o chamado para o advogado mais próximo 
+
+
+
+
+
+"O terceiro ponto envolve a especialidade jurídica. Você listou como dor o fato de o cliente não saber qual área é adequada para seu problema, mas não detalhou como o MVP resolve isso. O cliente seleciona uma categoria ao abrir o chamado, descreve livremente o problema em texto, ou o MVP simplesmente conecta com qualquer advogado disponível na proximidade, sem filtro de especialidade? Considerando o prazo de três meses, essa escolha pesa."
+
+3) Especialidade Jurídica, possamos botar isso em features futuras
+
+
+"O quarto ponto é sobre validação de cadastro do advogado. Você mencionou validar OAB, especialidades, credenciais e até puxar históricos criminais. Validações desse tipo dependem de integrações com fontes externas, como a API pública da OAB ou serviços de background check, que podem ter custo, tempo de integração e requisitos legais próprios. No MVP, essa validação será automatizada via integração, manual feita por um administrador, ou um modelo híbrido onde o cadastro fica pendente até aprovação humana?"
+
+4) modelo híbrido, cadastro fica pendente até aprovação humana
+
+"O quinto ponto diz respeito ao papel do administrador da plataforma. Existirá uma figura administrativa no MVP responsável por aprovar cadastros de advogados, moderar comportamento, resolver disputas ou intervir em situações irregulares? Se sim, isso implica uma área administrativa que precisa entrar no escopo das specs."
+
+5) acredito que esta persona administrador não será necessário para o mvp. 
+
+
+"O sexto ponto é sobre disponibilidade do advogado. Como o advogado sinaliza que está disponível para receber chamados? Existe um botão de ficar online e ficar offline, similar ao app de motoristas, ou o advogado está sempre disponível enquanto estiver logado? Há horários comerciais que o sistema deve respeitar, ou o atendimento é 24 horas?"
+
+6) Existirá um botão de entrar no matching e sair, similar ao app de motoristas
+
+"O sétimo e último ponto é o regulatório, que você indicou como pendente. Recomendo fortemente que antes de gerar o README definamos uma posição preliminar, mesmo que provisória, sobre como o projeto se relaciona com o Provimento 205/2021 da OAB. O risco é estrutural: dependendo da interpretação, o modelo de uberização da advocacia pode esbarrar em vedações sobre captação de clientela, mercantilização da profissão e publicidade. Sugiro que ao menos registremos no README a ciência dessa restrição e o compromisso de validar juridicamente antes do lançamento. Posso pesquisar o teor do provimento e propor uma redação preliminar para esse trecho, se você quiser."
+
+7) deixe em branco todas as partes pendentes e/ou sem definição para depois eu validar e incluir no arquivo readme 

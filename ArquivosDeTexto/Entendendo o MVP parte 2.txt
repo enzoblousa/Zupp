@@ -1,0 +1,18 @@
+Pontos críticos:
+
+1) Em relação a pagamentos, queria uma ideia de negócio atrativa para advogados e para clientes também. Cliente não é pego de surpresa na hora do pagamento sobre o valor do serviço e o advogado também não. Talvez uma taxa de deslocamento ou algo nesse sentido para ser lucrativo tanto pro advogado quanto para nós desenvolvedores
+
+2) Match estilo uber, sistema dispara o chamado para o advogado mais próximo 
+
+3) Especialidade Jurídica, possamos botar isso em features futuras
+
+4) modelo híbrido, cadastro fica pendente até aprovação humana
+
+5) acredito que esta persona administrador não será necessário para o mvp. 
+
+6) Existirá um botão de entrar no matching e sair, similar ao app de motoristas
+
+7) deixe em branco todas as partes pendentes e/ou sem definição para depois eu validar e incluir no arquivo readme 
+
+
+Não pesquise o provimento, deixe em branco ou com uma marcação indicando pendência de specificacao
