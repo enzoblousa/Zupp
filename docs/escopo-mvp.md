@@ -47,4 +47,4 @@ Aplicação web responsiva, acessível por navegadores em desktop e dispositivos
 
 ## Escopo geográfico
 
-Atendimento apenas de Brasília - DF desde o lançamento do MVP.
+Atendimento apenas de Brasíliaa - DF desde o lançamento do MVP.
