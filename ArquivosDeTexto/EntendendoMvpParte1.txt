@@ -35,7 +35,7 @@ Funcionolalidades obrigatórias no mvp:
 Bloco 4 — Limites de escopo e considerações regulatórias
 Pendente, analisar depois: https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021
 
-Escopo geográfico do MVP será nacionalmente
+Escopo geográfico do MVP será apenas do Distrito Federal Brasília
 
 Funcionalidades futuras que estarão fora do MVP: 
 1) Gateway de pagamentos na hora da contratação do serviço
@@ -47,6 +47,7 @@ Funcionalidades futuras que estarão fora do MVP:
 7) Seção de profissionais favoritados pelo usuário caso precise em outro momento
 8) Perfil para advogados: tempo de profissao quantos processos ele ja fez
 9) OPCAO DE LIGACAO VIA VIDEO CHAMADA(ATENDIMENTO REMOTO)
+10) Escopo geográfico será do país inteiro 
 
 Bloco 5 — Restrições técnicas e de negócio
 Para o Mvp será versão web responsiva
