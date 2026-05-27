@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Status
 
-Zupp is currently in the **Specification phase** — documentation only, no application code exists. The repository follows **Spec-Driven Development with the RPI Method** (Requirements → Plan → Implementation). Development begins after pending decisions and ADRs are closed.
+Zupp is currently in the **Specification phase** — documentation only, no application code exists. The repository follows **Spec-Driven Development with the RPI Method** (Requirements → Plan → Implementation). Requirements are complete; one pending decision (regulatory compliance) must be resolved before ADRs begin.
 
 ## Documentation Commands
 
@@ -23,21 +23,21 @@ All docs are in `docs/`, served via `mkdocs.yml` (Material theme, Portuguese).
 | File | Content |
 |---|---|
 | `escopo-mvp.md` | 6 mandatory MVP features — source of truth for scope |
-| `pendencias.md` | 4 open decisions that must be closed before ADRs |
+| `monetizacao.md` | Decided pricing model: R$25 base + R$2.50/km |
+| `pendencias.md` | 1 open decision remaining: regulatory compliance (OAB Provimento 205/2021) |
 | `proximos-passos.md` | Phase roadmap: Pending → ADRs → Specs → Guides → Tasks |
 | `restricoes.md` | Constraints: web-responsive, 3-month deadline, 2 devs, stack PENDING |
-| `regulatorio.md` | OAB Provimento 205/2021 compliance notes (PENDING analysis) |
+| `regulatorio.md` | OAB Provimento 205/2021 compliance notes (PENDING light legal review) |
 
 ## Product Overview
 
 On-demand legal services platform connecting clients to nearby lawyers, modeled after ride-hailing apps. Matching is proximity-based; lawyers control availability via an online/offline toggle. National scope from launch.
 
-**MVP features:** authentication, lawyer registration with hybrid human approval, online/offline toggle, proximity-based demand dispatch (accept/refuse cascades to next nearest), automatic pool removal after accept, in-platform chat.
+**MVP features:** authentication, automated lawyer validation (selfie + CNA lookup), online/offline toggle, proximity-based demand dispatch (distance primary, time-online tiebreaker, 30s timeout, 10km max radius), automatic pool removal after accept, in-platform chat.
+
+**Pricing (decided):** R$25 base fee + R$2.50/km traveled by the lawyer. Payment off-platform in MVP; platform shows estimated value before accept.
 
 **Out of scope for MVP:** payment gateway, video calls, admin panel, specialty filtering, favorites, premium profiles.
 
-**Open decisions (must be closed before ADRs):**
-1. Monetization and pricing model (payments happen off-platform in MVP)
-2. Who/how approves lawyer registrations (no admin persona formalized)
-3. Matching tiebreaker and fallback rules
-4. Regulatory compliance with OAB Provimento 205/2021
+**Open decision (must be closed before ADRs):**
+- Regulatory compliance with OAB Provimento 205/2021 — light legal review (1–2h) required before development starts.
