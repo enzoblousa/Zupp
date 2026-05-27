@@ -1,0 +1,14 @@
+Pontos pendentes validados com o PO
+
+1- Modelo de monetização e precificação: 
+cliente aciona o matching de advogados por perto, advogado aceita e cliente paga uma taxa base + taxa de deslocamento do advogado até o local do cliente(R$25 + R$2,50 por km)
+
+2- Operacionalização da aprovação de cadastros:
+Na hora que o advogado se cadastrar, tirar uma selfie e o aplicativo verificar automaticamente com a CNA(site especifico onde verifica a situacao do advogado da OAB), conselho nacional da advocacia
+
+3- Critério de desempate e fallback no matching:Critério primário (MVP): menor distância geográfica até o cliente.
+Critério de desempate (MVP): em caso de empate técnico de distância — por exemplo, dois advogados dentro de um raio de 100 metros do mesmo ponto — vence o que está há mais tempo online no momento do disparo. Esse critério premia o engajamento do profissional na plataforma e é trivial de implementar, já que o sistema precisa registrar quando o advogado entrou no matching de qualquer forma.
+Fallback em caso de recusa: o sistema dispara para o próximo advogado mais próximo, respeitando o mesmo critério de desempate. Cada advogado tem um tempo limite para responder ao chamado (sugiro 30 segundos, alinhado com apps de mobilidade). Se ninguém aceitar dentro de um raio razoável — por exemplo, 10 km — o cliente recebe a notificação de que não há advogados disponíveis no momento e é orientado a tentar novamente.
+Para versões futuras: avaliação histórica do advogado, taxa de aceitação, tempo médio de chegada, especialidade compatível com o caso.
+
+4- Conformidade regulatória: Me de sua sugestão 
