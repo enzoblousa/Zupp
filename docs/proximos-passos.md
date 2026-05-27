@@ -6,9 +6,11 @@ Seguindo o RPI Method e a metodologia Spec-Driven Development, os próximos pass
 
 ## 1. Validação e fechamento dos pontos pendentes
 
-Antes de avançar para a próxima camada de documentação, os pontos marcados como pendentes devem ser revisados e definidos.
+Os pontos de monetização, validação de cadastro e critérios de matching foram validados pelo PO e estão documentados.
 
-Consulte a lista completa em [Pontos Pendentes](pendencias.md).
+Resta apenas a **conformidade regulatória**: realizar validação jurídica leve (1–2h com advogado especializado em ética da advocacia) antes do início do desenvolvimento.
+
+Consulte o status atualizado em [Pontos Pendentes](pendencias.md).
 
 ---
 

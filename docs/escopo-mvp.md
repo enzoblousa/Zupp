@@ -8,10 +8,11 @@
 - Cadastro de advogado (sujeito a aprovação)
 - Login para ambos os perfis
 
-### 2. Validação de advogado (modelo híbrido)
+### 2. Validação de advogado (automatizada)
 
 - Advogado realiza o cadastro fornecendo documentos e informações
-- Cadastro permanece pendente até aprovação humana
+- Validação ocorre no momento do cadastro via **selfie** + **consulta ao CNA (Conselho Nacional da Advocacia)**
+- Aprovação automática ao término da validação; sem aprovação manual humana
 - Após aprovação, advogado passa a ter acesso ao matching
 
 ### 3. Disponibilidade controlada pelo advogado
@@ -24,10 +25,12 @@
 ### 4. Chamado sob demanda com matching por proximidade
 
 - Cliente abre um chamado pela plataforma
-- Sistema identifica o advogado online mais próximo geograficamente
+- Sistema identifica o advogado online mais próximo geograficamente (critério primário: **distância**)
+- Em caso de empate de distância, o desempate é pelo **tempo online** (quem está online há mais tempo)
 - Chamado é disparado para esse advogado, no modelo de aplicativos de mobilidade
-- Advogado pode aceitar ou recusar o chamado
-- Em caso de recusa, o sistema dispara para o próximo advogado mais próximo
+- Advogado tem **30 segundos** para aceitar ou recusar; após o timeout, o sistema avança para o próximo
+- Em caso de recusa ou timeout, o sistema dispara para o próximo advogado mais próximo
+- O raio máximo de busca é de **10 km**; se nenhum advogado disponível for encontrado dentro desse raio, o chamado falha com mensagem ao cliente
 
 ### 5. Remoção do advogado do matching após aceite
 

@@ -1,7 +1,7 @@
 # Zupp — Plataforma de Atendimento Jurídico Sob Demanda
 
 > **Tipo:** Documento de visão do projeto
-> **Status:** Versão inicial — contém pontos pendentes de validação
+> **Status:** Requirements concluídos — aguarda apenas validação jurídica regulatória antes dos ADRs
 > **Metodologia:** Spec-Driven Development com RPI Method (Requirements → Plan → Implementation)
 
 ---
@@ -18,6 +18,7 @@ O MVP foca exclusivamente em **atendimentos presenciais** disparados sob demanda
 | [Proposta de Valor](proposta-de-valor.md) | Diferencial do produto para cada lado da plataforma |
 | [Usuários e Personas](personas.md) | Perfis de cliente, advogado e administrador |
 | [Escopo do MVP](escopo-mvp.md) | Funcionalidades obrigatórias e plataforma de entrega |
+| [Modelo de Monetização](monetizacao.md) | Precificação: taxa base + taxa por km |
 | [Fora do Escopo](fora-do-escopo.md) | Funcionalidades diferidas para versões futuras |
 | [Restrições Técnicas](restricoes.md) | Prazo, equipe, stack e infraestrutura |
 | [Considerações Regulatórias](regulatorio.md) | Provimento 205/2021 da OAB e impactos no produto |
